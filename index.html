@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharing knowlede Academy</title>
+    <link rel="icon" href="img/logo.icon">
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <!-- Start Navbar section  -->
+    <header>
+        <nav class="nav-section">
+            <div class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo-container">
+                <a href="" class="logo"> <span>S</span>haring<span> K</span>nowledge</a>
+            </div>
+            <ul class="nav-links">
+                <li><a class="nav-active" href="index.html">Home</a></li>
+                <li><a href="index/learn.html">Learn</a><i class="fas fa-caret-down"></i>
+                    <div class="subMenu">
+                        <ul class="subMenu">
+                            <li><a href="index/html-course.html">HTML</a></li>
+                            <li><a href="css-course.html">CSS</a></li>
+                            <li><a href="index/javaScript-course.html">JavaScript</a></li>
+                            <li><a href="index/jQuery-course.html">jQuery</a></li>
+                        </ul>
+                    </div>
+                <li><a href="index/contact.html">Contact</a></li>
+                <li><a href="index/about.html">About</a></li>
+            </ul>
+            <div class="date-wrapper">
+                <p id="date"></p>
+            </div>
+        </nav>
+    </header>
+    <!-- End Navbar section  -->
+    <!-- Start Main section -->
+    <main>
+        <section class="animation">
+            <aside></aside>
+            <aside></aside>
+            <aside></aside>
+        </section>
+        <div>
+            <section class="search">
+                <input type="text" placeholder="Search anything here...">
+                <button type="button">search</button>
+            </section>
+        </div>
+        <!--  -->
+        <!-- <audio src="audioIntro.mp3" autoplay></audio> -->
+        <div class="welcome">
+            <div>
+                <p><span>Welcome to</span> Sharing knowledge Academy</p>
+            <h4>Sharing knowlede Academy is an educational platform on provides presentations that offers anchoring lines of interactive anchoring, study plans with good education, and good explanation in its application.</h4>
+            </div>
+        </div>
+        <section class="container" aria-label="newest photos">
+            <div class="carousel-wrapper" data-carousel>
+                <button class="carousel-button next" data-carousel-button="next">&#8656;</button>
+                <button class="carousel-button prev" data-carousel-button="prev">&#8658;</button>
+                <div class="carousel-quotes">
+                    <h2>Anyone who stops learning is old</h2>
+                    <p class="welcome">“Always walk through life as if you have something new to learn and you will.”</p>
+                </div>
+                <ul data-slides>
+                    <li class="slide" data-active>
+                        <img src="img/carousel-4.jpg" name="slide" alt="Natural img #1">
+                    </li>
+                    <li class="slide">
+                        <img src="img/carousel-2.jpg" name="slide" alt="Natural img #2">
+                    </li>
+                    <li class="slide">
+                        <img src="img/carousel-3.jpg" name="slide" alt="Natural img #3">
+                    </li>
+                    <li class="slide">
+                        <img src="img/carousel-1.jpg" name="slide" alt="Natural img #3">
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- End Main section -->
+    <!-- Start Footer section -->
+    <footer>
+        <h4 class="follow-us">Follow us in social media<h1> 
+        <div class="media">
+          <ul>
+            <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://instagram.com/husseinbaiti?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></i></li>
+            <li><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></i></li>
+          </ul>
+        </div>
+        <div class="them">
+            <div>
+                <button id="dark-them-btn">Dark Theme</button>
+                <button id="light-them-btn">Light Theme</button>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer section -->
+</body>
+</html>

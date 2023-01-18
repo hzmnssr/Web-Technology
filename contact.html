@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharing knowlede Academy</title>
+    <link rel="icon" href="../img/logo.icon">
+    <link rel="stylesheet" href="../style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <script defer src="../js.js/contact.js"></script>
+
+</head>
+<body>
+    <!-- Start Navbar section  -->
+    <header>
+        <nav class="nav-section">
+            <div class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo-container">
+                <a href="" class="logo"> <span>S</span>haring <span>K</span>nowledge</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="learn.html">Learn</a><i class="fas fa-caret-down"></i>
+                  <div class="subMenu">
+                      <ul class="subMenu">
+                          <li><a href="html-course.html">HTML</a></li>
+                          <li><a href="css-course.html">CSS</a></li>
+                          <li><a href="javaScript-course.html">JavaScript</a></li>
+                            <li><a href="jQuery-course.html">jQuery</a></li>
+                      </ul>
+                  </div>
+                <li><a class="nav-active" href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="date-wrapper">
+              <p id="date"></p>
+          </div>
+        </nav>
+    </header>
+    <!-- End Navbar section  -->
+    <!-- Start Main section -->
+    <main>
+        <section class="animation">
+            <aside></aside>
+            <aside></aside>
+            <aside></aside>
+        </section>
+        <div class="course-title">
+            <div>
+                <p>Get in Touch With Us</p>
+                <h4>Contact us, as we are happy to answer any questions you have, explore potential partnerships and receive requests from interested affiliates.</h4>
+            </div>
+        </div>
+        <div class="contact-wrapper">
+            <div class="welcome">
+                <div>
+                    <h4>Need help? Fill out this form and
+                    we will get back to you!
+                    </h4>
+                </div>
+                <div class="container-form">
+                    <div class="header">
+                      <h2>Contact Us</h2>
+                    </div>
+                    <form id="form" class="form" action="../results.html" method="GET">
+                      <div class="form-control">
+                        <label>Username</label>
+                        <input type="text" name="name" placeholder="florinpop17" id="username">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                      </div>
+                      
+                      <div class="form-control">
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="xxx@gmail.com" id="email">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                      </div>
+                      
+                      <div class="form-control">
+                        <label>feadback</label>
+                        <textarea type="text" name="feedback" class="feadback" placeholder="write your feadback" id="feadback"></textarea>
+                      </div>
+                
+                      <button class="submit" type="submit">Submit</button>
+                    </form>
+                  </div>   
+            </div>
+        </div> 
+    </main>
+    <!-- End Main section -->
+    <!-- Start Footer section -->
+    <footer>
+        <h4 class="follow-us">Follow us in social media<h1> 
+        <div class="media">
+          <ul>
+            <ul>
+              <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></i></li>
+              <li><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></i></li>
+            </ul>
+        </div>
+        <div class="them">
+          <div>
+              <button id="dark-them-btn">Dark Theme</button>
+              <button id="light-them-btn">Light Theme</button>
+          </div>
+      </div>
+    </footer>
+    <!-- End Footer section -->
+</body>
+</html>
